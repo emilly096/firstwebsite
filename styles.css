@@ -1,0 +1,76 @@
+html{
+  background-color: rgb(230, 209, 255);
+  background: url(pastel.jpeg);
+background-size: cover;
+background-position: center;
+}
+
+body{
+text-align: center;
+font-family:"Impact", Charcoal, sans-serif;
+font-weight: normal;
+}
+
+
+li{
+  text-align: left;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+h1{
+  font-size: 60px;
+  color: rgb(78, 12, 145);
+  font-family: "Impact", Charcoal, sans-serif;
+  font-weight: bold;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(78, 12, 145);
+  text-decoration: none;
+}
+
+.menu > li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+  border: 0.5px solid;
+}
+
+
+
+.DivOne{
+  width: 600px;
+  height: auto;
+  text-align: left;
+  float: left;
+  margin-right: 10px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.DivHalf{
+width: auto;
+height: auto;
+text-align: left;
+margin-top: 50px;
+}
+
+.DivTwo{
+  width: auto;
+  height: auto;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.DivThree{
+  float: left;
+  width: 700px;
+  margin-top: 20px;
+}
