@@ -1,0 +1,96 @@
+html{
+  /*background: url(redlines.jpg);*/
+  background-repeat:round;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+text-align: center;
+font-family: 'Press Start 2P';
+font-weight: bold;
+padding: 20px 50px;
+}
+
+.now{
+  color: #a4eced;
+  font-weight: normal;
+  float: center;
+}
+
+li{
+  text-align: left;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+a{
+  color: #cf7a80;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #a4eced;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.menu > li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px 20px;
+  margin-top: 30%;
+  margin-bottom: 50px;
+  border: 0.5px solid #cf7a80;
+  border-radius: 3px;
+}
+
+h1{
+  font-size: 60px;
+  color: white;
+  filter: drop-shadow(2px 2px 5px #cf7a80);
+    animation: myanim 2s infinite;
+
+}
+
+
+@keyframes myanim {
+            30% {
+               text-shadow: 5px 5px 10px #cf7a80;
+            }
+         }
+
+.box1{
+  padding: 10px;
+  width: 60%;
+  height: auto;
+  padding-bottom: 20px;
+  text-align: left;
+  float: left;
+  margin-right: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #cf7a80;
+  text-align: left;
+  text-decoration: none;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: lighter;
+  font-size: 90;
+}
+
+.gif{
+  float: right;
+  width: auto;
+  height: auto;
+  margin-right: 30px;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-right: 30px;
+  display:inline-block;
+}
